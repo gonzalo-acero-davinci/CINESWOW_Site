@@ -1,0 +1,27 @@
+.close {
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: 99999;
+}
+
+
+
+
+
+/* mediaquery para site responsive */ 
+@media (min-width: 768px) {
+    html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
