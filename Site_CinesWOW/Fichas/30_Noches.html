@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINESWOW</title>
+
+     <!-- Fuentes -->  
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+ 
+     <!-- Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ 
+     
+ 
+     <!-- CSS de Autores -->
+     <link rel ="stylesheet" href="/Site_CinesWOW/styles/styles.css">
+</head>
+<body class="big-container">
+
+    <div class="text-center">
+        <div class="spinner-border spinner-border-sm m-5" role="status" id="spinner">
+            <span class="visually-hidden">Cargando...</span>
+         </div>
+        </div>
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="/Site_CinesWOW/index.html">CINESWOW</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Site_CinesWOW/index.html">Cartelera</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Registro.html">Registrarse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Inicio_De_Sesion.html">Inicio de sesion</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    <header>
+
+
+    </header>
+
+  
+    <section>
+        <div class="galeria fila">
+          <div class="centered-text">
+            <img src="/Site_CinesWOW/img/img_19.jpg" alt="30 Noches con mi Ex" class="responsive-image"></a>
+          </div>
+        </div>
+
+    </section>
+
+    <section class="description">
+      <div class="galeria fila">
+        <div class="columna">
+          <p>El Turbo (Adrián Suar) quien luego de 3 años de separado de La Loba (Pilar Gamboa), acepta, 
+            por pedido de la hija que tienen en común, convivir durante 30 días con su ex mujer, 
+            que viene de una larga internación psiquiátrica. La Loba debe hacer la transición entre la internación y 
+            su reinserción en la sociedad. La nueva “vida en familia” hará que El Turbo y La Loba revivan los 
+            sentimientos de amor y despierte la ilusión de volver a estar juntos. Mientras resurgen los sentimientos 
+            encontrados entre ambos, y con la necesidad de contención emocional de fondo, la convivencia se 
+            convierte en un sube y baja emocional que los hará vacilar entre el amor y lo que llevó al fin de la 
+            pareja. Una tormenta perfecta llena de irreverencias, incidentes con los vecinos, arrebatos sexuales y 
+            un comportamiento público poco convencional, que los hará vivir una verdadera odisea, divertida, 
+            desopilante y con mucho amor.
+
+          </p>
+        </div>
+          <div class="columna">
+            <p>Duración: 95min </p>
+              <p>Calificación:
+                Apta para mayores de 13 años</p>
+              <p>Titulo Original:
+                30 Noches con mi Ex</p>
+              <p>Género:
+                Comedia. </p>
+              <p>Director:
+                Adrian Suar.</p>
+              <p>Actores:
+                Adrian Suar, Pilar Gamboa. </p>
+              <p>Distribuidora:
+                Warner Bros </p>
+              <p>Origen:
+                Argentina.
+                </p>
+          </div>
+      </div>
+
+    </section>
+
+
+    <section class="galeria fila">
+      <div class="columna">  
+      <ul class="options">
+          <li class="option1">
+            <p>SUCUSALES</p>
+            <label for="Sucursales">
+              <select required name="Sucursales" id="Sucursales">
+                <option value="Caballito">Caballito</option>
+                <option value="Liniers">Liniers</option>
+              </select>
+            </label>
+          </li>
+          <li class="option2">
+            <p>FORMATO</p>
+            <label for="Formato">
+              <select name="Formato" id="Formato">
+                <option value="2D">2D</option>
+                <option value="3D">3D</option>
+              </select>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <button type="button" class="centered-text">Comprar!</button>
+
+    </section>
+
+
+
+    <!-- Core de JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    
+
+    <!-- Core de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    
+    <!-- JS de los Autores -->
+    <script src="/Site_CinesWOW/js/spinner.js"></script>
+</body>
+</html>

@@ -13,40 +13,43 @@
     <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    
+
     <!-- CSS de Autores -->
-    <link rel ="stylesheet" href="/styles/styles.css">
+    <link rel ="stylesheet" href="styles/styles.css">
 
 
 </head>
 
-<body>
+<body class="big-container">
+  
     <div class="text-center">
         <div class="spinner-border spinner-border-sm m-5" role="status" id="spinner">
-            <span class="visually-hidden">Loading...</span>
+            <span class="visually-hidden">Cargando...</span>
          </div>
         </div>
-    
+      
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Hidden brand</a>
+                <a class="navbar-brand" href="#">CINESWOW</a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Cartelera</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="Registro.html">Registrarse</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Disabled</a>
+                    <a class="nav-link" href="Inicio_De_Sesion.html">Inicio de sesion</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder="Listado de Disponibles" aria-label="Search" id="Formulario">
+                  <button class="btn btn-outline-success" type="button" id="Boton">Buscar</button>
                 </form>
               </div>
             </div>
@@ -99,18 +102,141 @@
               </div>
 
         </section>
+
+
+        <section id="Resultado" class="centered-text">
+          <div class="Estrenos">
+            <a href="#Estrenos">Estrenos</a>
+          </div>
+          <div class="Preventa ">
+            <a href="#Preventa">Preventa</a>
+          </div>
+          <div class="CarteleraC">
+            <a href="#CarteleraC">Cartelera Completa</a>
+          </div>
+        </section>
+
+
+        <section id="Estrenos" >
+          <div class="galeria fila">
+            <div class="columna" >
+              <a  href="/Site_CinesWOW/Fichas/Noche_Halloween.html"><img src="/Site_CinesWOW/img/img_4.jpg" alt="Noche de Hallowen" class="responsive-image"></a>
+              
+            </div>
+            <div class="columna" >
+              <a  href="/Site_CinesWOW/Fichas/Black_Adam.html"><img src="/Site_CinesWOW/img/img_5.jpg" alt="Black Adam" class="responsive-image"></a>
+              
+            </div>
+            <div class="columna">
+              <a  href="/Site_CinesWOW/Fichas/Tadeo.html"><img src="/Site_CinesWOW/img/img_6.jpg" alt="Tadeo" class="responsive-image"></a>
+			  </div>
+              <div class="columna">
+                <a href="/Site_CinesWOW/Fichas/One_Piece.html"><img src="/Site_CinesWOW/img/img_7.jpg" alt="Noche de Hallowen" class="responsive-image"></a>
+                
+              </div>
+              <div class="columna">
+                <a  href="/Site_CinesWOW/Fichas/El_suplente.html"><img src="/Site_CinesWOW/img/img_8.jpg" alt="Black Adam" class="responsive-image"></a>
+                
+              </div>
+              <div class="columna">
+                <a href="/Site_CinesWOW/Fichas/Affair.html"><img src="/Site_CinesWOW/img/img_9.jpg" alt="Tadeo" class="responsive-image"></a>
+                
+              </div>
+            
+          </div>
+        </section>
+
+        <section id="Preventa" >
+          <div class="galeria fila">
+            <div class="columna">
+              <a  href="/Site_CinesWOW/Fichas/Fotografo.html" ><img src="/Site_CinesWOW/img/img_10.jpg" alt="Noche de Hallowen" class="responsive-image"></a>
+              
+            </div>
+            <div class="columna">
+              <a  href="/Site_CinesWOW/Fichas/1985.html"><img src="/Site_CinesWOW/img/img_11.jpg" alt="Black Adam" class="responsive-image"></a>
+              
+            </div>
+            <div class="columna">
+              <a  href="/Site_CinesWOW/Fichas/Huerfana.html"><img src="/Site_CinesWOW/img/img_12.jpg" alt="Tadeo" class="responsive-image"></a>
+			  </div>
+              <div class="columna">
+                <a  href="/Site_CinesWOW/Fichas/Sonrie.html"><img src="/Site_CinesWOW/img/img_13.jpg" alt="Noche de Hallowen" class="responsive-image"></a>
+                
+              </div>
+              <div class="columna">
+                <a  href="/Site_CinesWOW/Fichas/Amsterdam.html"><img src="/Site_CinesWOW/img/img_14.jpg" alt="Black Adam" class="responsive-image"></a>
+                
+              </div>
+              <div class="columna">
+                <a  href="/Site_CinesWOW/Fichas/Wakanda.html"><img src="/Site_CinesWOW/img/img_15.jpg" alt="Tadeo" class="responsive-image"></a>
+                
+              </div>
+            
+          </div>
+        </section>
+        <section id="CarteleraC" >
+          <div class="galeria fila">
+            <div class="columna">
+              <a  href="/Site_CinesWOW/Fichas/Gerente.html"><img src="/Site_CinesWOW/img/img_16.jpg" alt="Noche de Hallowen" class="responsive-image"></a>
+              
+            </div>
+            <div class="columna">
+              <a  href="/Site_CinesWOW/Fichas/Paraiso.html"><img src="/Site_CinesWOW/img/img_17.jpg" alt="Black Adam" class="responsive-image"></a>
+              
+            </div>
+            <div class="columna">
+              <a  href="/Site_CinesWOW/Fichas/Exorcista.html"><img src="/Site_CinesWOW/img/img_18.jpg" alt="Tadeo" class="responsive-image"></a>
+			  </div>
+              <div class="columna">
+                <a  href="/Site_CinesWOW/Fichas/30_Noches.html"><img src="/Site_CinesWOW/img/img_19.jpg" alt="Noche de Hallowen" class="responsive-image"></a>
+                
+              </div>
+              <div class="columna">
+                <a  href="/Site_CinesWOW/Fichas/Atroscope.html"><img src="/Site_CinesWOW/img/img_20.jpg" alt="Black Adam" class="responsive-image"></a>
+                
+              </div>
+              <div class="columna">
+                <a  href="/Site_CinesWOW/Fichas/Casablanca.html"><img src="/Site_CinesWOW/img/img_21.jpg" alt="Tadeo" class="responsive-image"></a>
+                
+              </div>
+            
+          </div>
+        </section>
+
     </main>
 
-          
+    <footer class="footer" id="responsive-qr">
+      <div class="firstqr">
+        <p>Data Fiscal</p>
+        <a href="https://www.afip.gob.ar/landing/default.asp">
+          <img src="/Site_CinesWOW/img/qr.png" alt="Qr Fiscal" class="responsive-image">
+        </a>
+      </div>
+      <div class="secondqr">
+        <p>Data Fiscal</p>
+        <a href="https://www.afip.gob.ar/landing/default.asp">
+          <img src="/Site_CinesWOW/img/qr.png" alt="Qr Fiscal" class="responsive-image">
+        </a>
+      </div>
+      <div class="thirdqr">
+        <p>Data Fiscal</p>
+        <a href="https://www.afip.gob.ar/landing/default.asp">
+          <img src="/Site_CinesWOW/img/qr.png" alt="Qr Fiscal" class="responsive-image">
+        </a>
+      </div>
+    </footer>
     
     <!-- Core de JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     
+    
+
     <!-- Core de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     
     <!-- JS de los Autores -->
-    <script src="/js/spinner.js"></script>
+    <script src="/Site_CinesWOW/js/spinner.js"></script>
+    <script src="/Site_CinesWOW/js/LiveTimeSerch.js"></script>
 </body>
 </html>

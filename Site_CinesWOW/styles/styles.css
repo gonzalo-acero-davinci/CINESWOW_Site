@@ -1,27 +1,198 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 16px
+}
+
+
+
+body {
+  background-color:  #0f0e17;
+ 
+
+}
+
+
+
+.big-container{
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.responsive-image{
+  width: 100%;
+  height: auto;
+}
 .close {
     transform: translateY(-100%);
     transition: 0.5s;
     z-index: 99999;
 }
 
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columna{
+  padding: 20px;
+}
+
+.galeria .columna {
+  width: 100%;
+}
+
+.Estrenos :hover{
+  background-color: #ccc;
+  border: 2px solid #1e4629;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #0f0e17;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.Estrenos  {
+  border: 2px solid #1e4629;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #ccc;
+
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.Preventa :hover{
+  background-color: #ccc;
+  border: 2px solid #1e4629;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #0f0e17;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.Preventa{
+  border: 2px solid #1e4629;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #ccc;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.CarteleraC :hover {
+  background-color: #ccc;
+  border: 2px solid #1e4629;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #0f0e17;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
 
 
 
+
+.CarteleraC {
+  border: 2px solid #1e4629;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #ccc;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer {
+  display:flex;
+  flex: wrap;
+ 
+  
+}
+
+.centered-text {
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+
+button {
+  border: 5px solid #1e4629;
+  border-radius: 5px;
+  color: #ccc;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0f0e17;
+}
+
+#Resultado{
+  list-style-type: none;
+}
+
+#responsive-qr {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.centered-text {
+  text-align: center;
+}
+
+/* fuentes y colores */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fffffe;
+}
 
 /* mediaquery para site responsive */ 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     html {
     font-size: 16px;
   }
+
+  #responsive-qr {
+    width: 50%;
+    
+  }
+
+  .galeria .columna {
+    width: 50%;
+  }
+
+
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
 
-body {
-  margin-bottom: 60px;
+@media (min-width:1024px){
+  #responsive-qr {
+    width: 33.3333%;
+   justify-content: space-between;
+  }
+
+  .galeria .columna {
+    width: 33.3333%;
+  }
 }
 
 
